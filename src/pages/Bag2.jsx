@@ -1,8 +1,8 @@
 import { FaWhatsapp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
-export default function Shock() {
-  const navigate = useNavigate();
+export default function Bag2() {
+   const navigate = useNavigate();
   return (
     <>
       <div className="flex items-center justify-around p-3 bg-green-800 text-white shadow-xl/20  z-10">
@@ -48,26 +48,10 @@ export default function Shock() {
           </a>
         </div>
       </div>
-
       <div className="flex items-center justify-center  w-full h-[91vh] bg-[url(/img/foto-6.jpg)] bg-center bg-cover">
-        <div className="w-full h-full flex items-center overflow-y-auto gap-4 flex-col py-3 ">
+        <div className="flex items-center justify-center w-full h-full">
           <img
-            className="w-100 h-100 rounded-xl   shadow-xl/70 "
-            src="/img/shockb.JPG"
-            alt=""
-          />
-          <img
-            className="w-100 h-100 rounded-xl   shadow-xl/70 "
-            src="/img/shockb.JPG"
-            alt=""
-          />
-          <img
-            className="w-100 h-100 rounded-xl   shadow-xl/70 "
-            src="/img/shockb.JPG"
-            alt=""
-          />
-          <img
-            className="w-100 h-100 rounded-xl   shadow-xl/70 "
+            className="w-100 h-100 rounded-xl shadow-xl/50"
             src="/img/shockb.JPG"
             alt=""
           />
@@ -96,21 +80,7 @@ export default function Shock() {
               <p>4.Black Stripe White</p>
             </div>
           </div>
-          <div className="flex items-center justify-evenly pt-15">
-            <button className="flex items-center justify-center gap-1 transition duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer pt-2 pb-2 pl-15 pr-15 bg-white text-black shadow-xl/30 rounded-xl">
-              <img className="w-8 h-8" src="/img/shopee.jpg" alt="" />
-              <p className="text-xl font-medium font-mono text-orange-600">
-                Shopee
-              </p>
-            </button>
-            <button className="flex items-center justify-center gap-1 transition duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer pt-2 pb-2 pl-15 pr-15 bg-white text-black shadow-xl/30 rounded-xl">
-              <img className="w-8 h-8" src="/img/tokopedia.jpg" alt="" />
-              <p className="text-xl font-medium font-mono text-green-700">
-                Tokopedia
-              </p>
-            </button>
-          </div>
-          <div className="flex items-center justify-center pt-5">
+          <div className="flex items-center justify-center pt-20">
             <button className="flex gap-1 items-center justify-center transition duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer pt-2 pb-2 pl-15 pr-15 bg-white text-black shadow-xl/30 rounded-xl">
               <FaWhatsapp size={30} color="green" />
               <p className="text-xl font-medium font-mono text-green-700">

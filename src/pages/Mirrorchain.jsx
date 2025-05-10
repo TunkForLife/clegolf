@@ -1,7 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
-export default function Shock() {
+export default function Mirrorchain() {
   const navigate = useNavigate();
   return (
     <>
@@ -11,7 +11,7 @@ export default function Shock() {
             SewaStickGolf
           </h1>
         </div>
-        <div className="flex items-center gap-5 font-bold text-shadow-lg/25">
+       <div className="flex items-center gap-5 font-bold text-shadow-lg/25">
           <p
             onClick={() => navigate("/")}
             className="font-bold text-shadow-lg/25 cursor-pointer"
